@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<script src="jquery-2.1.1.min.js"></script>
+		<script src="script.js"></script>
+		<link href="styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<h2>Enter values</h2>
+		<form id="myform" name="form1" method="post">
+			<input type="number" min="0" max="100" onblur="checkNuber(this)" id="filed0" placeholder="Enter number" />
+		</form>
+		<div style="text-align: left">
+			<a href="javascript:void(0);" onclick="addNewInput()" title="">Add new value</a>
+			<a href="javascript:void(0);" onclick="generate()" title="">Generate</a>
+		</div>
+		<div class="container vertical flat"></div>
+	</body>
+</html>
